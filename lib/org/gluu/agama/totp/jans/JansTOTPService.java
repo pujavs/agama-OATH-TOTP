@@ -145,7 +145,7 @@ public class JansTOTPService extends TOTPService {
         if (totpIndex != -1) {
             return jansExtUidFieldValues.getString(totpIndex);
         }
-
+		
         return null;
     }
 
@@ -169,5 +169,6 @@ public class JansTOTPService extends TOTPService {
             }
         }
         return -1; // Return -1 if the target string is not found in the array
+		
     }
 }
